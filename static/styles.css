@@ -1,0 +1,165 @@
+body {
+    width: inherit;
+    margin: 0;
+}
+
+header {
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+    width: inherit;
+    height: 100px;
+    background-color: rgb(10,154,46);
+	border: 3px solid rgb(10,154,46);
+	position: relative;
+	flex-direction: row;
+}
+
+.content {
+    width: 85%;
+    height: inherit;
+    margin: auto;
+}
+
+.HeaderContent {
+    width: 85%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .LogoBlock >a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+header .RegisterBlock {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.LogoBlock{
+	display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.RegisterBlock {
+	position: absolute;
+    right: 0;
+}
+
+li {
+    display: inline-block;
+    float: right;
+    padding: 3px;
+    margin: 10px;
+    border: 3px solid 	#006400;
+	border-radius: 30px;
+    transition: all .4s ease;
+}
+
+li:hover {
+	border: 3px solid #fff;
+    box-shadow: 2px 2px 	#00FF00
+}
+
+.logo {
+    width: 80px;
+    margin: 0;
+    padding: 10px;
+}
+
+.name {
+    color: black;
+	padding: 10px;
+    font-size: 40px;
+	font-family: 'Georgia', cursive;
+	font-weight: bold;
+	border: 3px solid 	rgb(10,154,46);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.register {
+    color: black;
+    font-size: 24px;
+	font-family: 'Georgia', cursive;
+    font-weight: bold;
+	padding: 10px;
+}
+
+.SignIn {
+    color: black;
+    font-size: 24px;
+	font-family: 'Georgia', cursive;
+    font-weight: bold;
+	padding: 10px;
+}
+
+.Register-Block {
+    display: flex;
+}
+
+#footer {
+    width: inherit;
+    background-color: #72A884;
+    margin: 0;
+    height: 71px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: black;
+    font-size: 24px;
+    font-family: 'Georgia', cursive;
+    font-weight: bold;
+	text-align: center;
+}
+
+.message {
+    color: #fff;
+    font-size: 24px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+#main_content {
+    width: inherit;
+	height: 900px;
+    text-align: center;
+    background-color: rgb(165,219,169);
+}
+
+.articles {
+    margin: 0;
+}
+
+article {
+    display: inline-block;
+    float: left;
+	font-family: Georgia;
+    padding: 3px;
+    margin: 15px;
+    font-size: 18px;
+	text-align: left;
+}
+
+.h1-article {
+    /*text-shadow: 2px 2px rgb(204, 102, 0);*/
+	font-family: Georgia;
+	text-align: left
+}
+
+.article-content{
+	background: radial-gradient(rgb(10,154,46), transparent);
+    border: 3px solid rgb(165,219,169);
+    padding: 10px;
+    margin: 20px;
+	color:black;
+}
